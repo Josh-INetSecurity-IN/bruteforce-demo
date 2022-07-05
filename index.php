@@ -154,8 +154,8 @@ if( isset( $_GET[ 'Login' ] ) ) {
          $row    = mysqli_fetch_assoc( $resulta );
 		 
 				//echo '<pre><br><br><font color="green">Welcome Admin!!</font></pre>';
-				$resp= "  You've Completed the task ";	
-					$string = 'Congrats!! '.$resp;
+				
+					$string = 'Welcome Admin!! '.$resp;
 			echo "<div class='alert'>".$string."</div>";
 			}
     
